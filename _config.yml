@@ -32,6 +32,15 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# 分类
+permalink: /:categories/:title/
+
+
+# List of links in the navigation bar
+navbar-links:
+  主页: "https://for-endmax.github.io"
+  分类: "https://for-endmax.github.io/categories/"
+  搜索: "search"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
